@@ -11,14 +11,13 @@ A simple and modular RESTful API built with **Kotlin** and **Spring Boot**. This
 - **Spring Web**
 - **Spring Data JPA**
 - **PostgreSQL**
-- **Flyway** (optional for DB migrations)
 - **JUnit** & **MockK** for testing
 - **Gradle** or **Maven** for build
 
 ---
 
 ## 🧱 Project Structure
-
+```plaintext
 src/
  └── main/
      ├── kotlin/
@@ -34,7 +33,7 @@ src/
          ├── application.yml               # Spring Boot config (DB, port, etc.)
          └── db/
              └── migration/                # Optional: Flyway migration scripts (V1__init.sql, etc.)
-
+```
 
 ---
 
