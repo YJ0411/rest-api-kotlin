@@ -11,6 +11,7 @@ A simple and modular RESTful API built with **Kotlin** and **Spring Boot**. This
 - **Spring Web**
 - **Spring Data JPA**
 - **PostgreSQL**
+- **Flyway** 
 - **JUnit** & **MockK** for testing
 - **Gradle** or **Maven** for build
 
@@ -78,6 +79,8 @@ spring:
     show-sql: true
 ```
 
+---
+
 ## 📡 Sample API Endpoints
 | Method | Endpoint          | Description       |
 | ------ | ----------------- | ----------------- |
@@ -86,6 +89,8 @@ spring:
 | POST   | `/api/items`      | Create new item   |
 | PUT    | `/api/items/{id}` | Update item by ID |
 | DELETE | `/api/items/{id}` | Delete item by ID |
+
+---
 
 ## ✨ Credits
 
